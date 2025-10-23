@@ -2,7 +2,7 @@
 
 Submitted by: **Izayah Rahming**
 
-Time spent: **[TODO: Add hours spent]**
+Time spent: **8 hours**
 
 ## Description
 
@@ -13,9 +13,7 @@ This is a web app, similar to StumbleUpon, that allows a user to discover new ca
 ## GIF Walkthrough
 
 Here's a complete walkthrough of all implemented features:
-
-![App Walkthrough GIF](PASTE YOUR IMGUR LINK HERE)
-*(Right-click your GIF on Imgur and "Copy Image Address" to get the link)*
+https://github.com/user-attachments/assets/c26dff40-b9a7-46bc-9a47-6ece62d23695
 
 ## Required User Stories
 
