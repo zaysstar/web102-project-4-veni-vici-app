@@ -1,0 +1,70 @@
+/* Make sure the app takes up the full screen */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* This is our main two-column container */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+/* This is the left column (Discover) */
+.discover-section {
+  flex: 2; /* Make this column 2x as wide as the ban list */
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+/* This is the right column (Ban List) */
+.ban-list-section {
+  flex: 1; /* Make this column 1x as wide */
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #1a1a1a;
+}
+
+.discover-section button {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+}
+
+.item-display img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* This makes our attribute clickable! */
+.clickable-attribute {
+  cursor: pointer;
+  color: #88cfff; /* A nice blue to show it's interactive */
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.clickable-attribute:hover {
+  color: #bde0ff;
+}
+
+.ban-list-item {
+  cursor: pointer;
+  background-color: #444;
+  color: #fdd; /* Light red text to show it's a "ban" */
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.ban-list-item:hover {
+  background-color: #5f3939;
+}
